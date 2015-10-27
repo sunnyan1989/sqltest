@@ -24,9 +24,9 @@ http.createServer(app).listen(8888, function() {
 
 var mysql = require('mysql') ;
 var connection = mysql.createConnection({
-	host : 'dev1.valiantica.com',
-  	user : 'dev1',
-  	password: 'valiantica0515',
+	host : '',
+  	user : '',
+  	password: '',
 	database: 'test'
 });
 
